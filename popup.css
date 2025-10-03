@@ -1,0 +1,35 @@
+body {
+  margin: 10px;
+  width: 280px;
+}
+h3 {
+  margin-top: 0;
+}
+input {
+  min-width: 165px;
+  padding: 4px;
+}
+button {
+  padding: 4px 6px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+li {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#repoInput {
+  flex: 1;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  gap: 5px;
+}
